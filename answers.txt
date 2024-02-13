@@ -5,14 +5,32 @@ that produces a correct answer, and what is the value of that factorial,
 assuming the return type of the function is: 
 
 1. char? 5!=120 [The first one is done for you to demonstrate what I'm looking for.]
+I copy and pasted what the code gave me as a result 
 2. unsigned char?
+Factorial of 5 (unsigned char): 120
+
 3. short?
+Factorial of 7 (short): 5040
+
 4. unsigned short?
+Factorial of 8 (unsigned short): 40320
+
 5. int?
+Factorial of 12 (int): 479001600
+
 6. unsigned int?
+Factorial of 12 (unsigned int): 479001600
+
 7. long?
+Factorial of 20 (long): 2432902008176640000
+
 8. unsigned long?
+Factorial of 20 (unsigned long): 2432902008176640000
+
+
 
 9. Can the unsigned version of any integer type ever have a bigger x than the signed version?
+yes generally speaking the unsigned version os of the integer types have a greater range as they do not include the negatives for instance char has a range of -128 to 127 while unsigned char has a range of 0 - 255.
    
 10. If the unsigned version can have a bigger x, show an example where this is true. If not, why not?
+this happens to be the case for the unsigned shorts vs shorts as unsigned shorts can do factorial 8 while normal shorts can not do factorial 8 as it is out of the range of short variable type. 
